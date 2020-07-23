@@ -16,7 +16,7 @@ const gameBoard = (() => {
     let count = 0;
     tr.className = `t-row`;
     for (let i = 0; i < 3; i++) {
-      for (let j = 0; i < 3w; j++) {
+      for (let j = 0; i < 3; j++) {
         td.className = `data-index-${count}`;
         tr.append(td);
         count++;
