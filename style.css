@@ -1,4 +1,27 @@
 td {
-  background-color: red;
-  width: 70px;
+  width: 150px;
+  height: 150px;
+  border-collapse: collapse;
+  border: 2px solid grey;
+  margin: auto;
+  font-size: 100px;
+}
+
+tr {
+  margin: auto;
+}
+
+#main-container {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+}
+
+#game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
